@@ -1220,7 +1220,7 @@ and (orientation : portrait) {
 	#work-hero {  height: 750px;  margin-top: 30px !important;}
 		#hero-overlay1, #hero-overlay2 { height: 750px; }
 		
-		#about-us .section-text {font-size: 38px !important; padding-top: 20px !important; padding-bottom: 30px !important;}
+		#about-us .section-text {font-size: 38px !important; padding-top: 20px !important; padding-bottom: 20px !important;}
 		#team .section-text {font-size: 38px !important;}
 		.team-description {font-size: 18px;}
 		.benefit-title {font-size: 20px !important;}
