@@ -641,22 +641,23 @@ transition: background 0.25s ease-in-out 0s;
 
 
 
+
 .image-bg{
-  background-attachment: fixed;
-    background-color: #222222;
-     background-image: url("http://placehold.it/1920x1000");
-	
-    background-position: center left;
-    background-repeat: no-repeat;
-    display: block;
-    position: relative;
-    width: 100%;
-    background-size: cover;
+	background-attachment: fixed;
+
+	background-image: url("../images/background/back-3.jpg");
+
+	background-position: center left;
+	background-repeat: no-repeat;
+	display: block;
+	position: relative;
+	width: 100%;
+	background-size: cover;
 }
 
 
 .image-color-bg{
-  background-color: #E54028;
+  background-color: #212121;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1097,10 +1098,13 @@ and (orientation : landscape) {
 	.home-text h1 { font-size: 52px !important; }
 	.home-image-slider .headings {margin-top: -30px !important;}
 
-.image-bg{ 	background-position: center top !important;background-size: contain !important; background-image: url("http://placehold.it/1920x1000") !important;}
+.image-bg{ 	background-position: center top !important;background-size: contain !important;}
 
 	.works-grid li {width: 25% !important;}
 	#process-d, #services-d {display: block !important;}
+	#process {
+		background-image: url("../images/background/back-4.jpg") !important;
+	}
 	#process-m, #services-m {display: none !important;}
 	#about-us .section-text  {font-size: 34px !important;}
 	.teamwrap.go-fade-in .section-text {font-size: 34px !important;}
@@ -1109,7 +1113,7 @@ and (orientation : landscape) {
 	#team { padding-bottom: 70px !important;}
 	
 	
-	#testimonials {background: url("http://placehold.it/1024x1024") !important; background-size: auto !important; }
+	#testimonials {background: url("../images/background/back-4.jpg") !important; background-size: auto !important; }
 	#testimonials .section-heading-medium { text-align: left; padding-left: 89px; margin-top: 30px;}
 	#test-text {   font-size: 26px !important;   line-height: 1.4em !important;   margin-top: 6% !important;   width: 400px !important;  text-align: left !important;padding-bottom: 50px !important; padding-left: 11px !important; height: 500px !important;}
 	.tc-slider.twitter-slider > li { overflow: hidden; width: 400px !important; height: 500px; }
@@ -1544,7 +1548,7 @@ and (orientation : portrait) {
  .fa-times:before { margin-left: 0px !important; margin-top: 3px !important; }
 		.main-nav{ height: 156px; }
 		#test-text {   font-size: 25px;   line-height: 1.4em;   margin-top: 14%;   width: 600px; letter-spacing: 0px;}
-		#testimonials {background: url("http://placehold.it/1920x1000"); background-size: cover; min-height: 710px; background-position: right top;}
+		#testimonials {background: url("../images/background/back-4.jpg"); background-size: cover; min-height: 710px; background-position: right top;}
 		.tc-arrows{ margin-left: 6%; text-align: left;}
 		#about-us {padding-top: 180px;  padding-bottom: 0px;}
 		#about-us .section-text {width: 85%; margin: 0 auto; font-size: 30px;}
@@ -1561,7 +1565,7 @@ and (orientation : portrait) {
 		.service-grid{ height: 750px; }
 		
 		.accordion > dd {font-size: 14px; }
-		#team { background-image: url(http://placehold.it/1920x1199);  background-size: cover;  }
+		#team { background-image: url("../images/background/back-1.jpg");  background-size: cover;  }
 		.team-section{ height: 750px; 	padding-top: 180px;}
 		.process-section {  height: 750px !important; padding-top: 0px;  }
 		.process-section .service-title { font-size: 24px; }
@@ -1629,7 +1633,7 @@ and (orientation : portrait) {
 		.work-full-text h6 {font-size: 17px;}
 		.work-full-text .text {  font-size: 22px; }
 		.work-full-load {padding-bottom: 0px;  padding-top: 84px;}
-		#team { background-image: url(http://placehold.it/1920x1199);   background-size: cover;  }
+		#team { background-image: url("../images/background/back-1.jpg");   background-size: cover;  }
 		.team-item {  width: 150px; }
 		.team-section {   background-position: left -30px;   background-size: cover;}
 		.team-name { font-size:  16px; }
@@ -1682,7 +1686,7 @@ and (orientation : portrait) {
 		.work-full-text h6 {font-size: 21px;}
 		.work-full-text .text {  font-size: 24px; }
 		.work-full-load {padding-bottom: 0px; padding-top: 74px;}
-		#team { background-image: url(http://placehold.it/1920x1199);  background-size: cover;  }
+		#team {   background-size: cover;  }
 		.team-item {  width: 200px; }
 		.team-section {  background-position: left top;  background-size: cover;}
 		.team-name { font-size:  17px; }
@@ -2362,7 +2366,7 @@ background: none repeat scroll 0 0 #FFFFFF;
 .service-grid{
 	margin-bottom: 70px;
 	margin-top: 0px;
-	background: url("http://placehold.it/1920x900");
+	background: url("../images/background/back-2.jpg");
 	background-size: cover;
 	width:100%;
 }
@@ -4203,7 +4207,10 @@ and (max-width : 1024px)
 	.home-text h1 { font-size: 30px; padding-top: 60px; }	
 	.home-section {margin-bottom: 0px;}
 	.page-section  {padding: 0px 0 30px 0 !important; }
-	.process-section {height: 1600px;}
+	.process-section {
+		height: 1600px;
+
+	}
 	#team { background: #333333 !important; padding-top: 10px !important;} 
 	#about-us  { padding-top: 10px 0 0 0 !important;}
 	#contacts  { padding-top: 10px; }
